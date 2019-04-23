@@ -1,5 +1,8 @@
 Rec Systems spring 2019
 
+lenskit websites
+https://lkpy.lenskit.org/en/stable/
+
 link to the git-hub repo
 https://github.com/BradSmith2015/RecSysProj2019
 
