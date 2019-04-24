@@ -12,3 +12,11 @@ https://www.pivotaltracker.com/n/projects/2319772
 
 link to jester data set 
 http://eigentaste.berkeley.edu/dataset/
+
+
+so how do we refit our data to our model.
+
+
+
+predict_for_user(user, items, ratings=None)
+we will have a data frame that is fitted, then we will just compare a new user to that existing data frame. from that calculation we will be able to recommended jokes for that user
