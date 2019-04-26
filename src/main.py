@@ -33,7 +33,7 @@ import csv, json
 
 
 # The header file should have columns added to it.
-rating_file = '../dataSets/jester_dataset_2/jester_ratings.dat'
+# rating_file = '../dataSets/jester_dataset_2/jester_ratings.dat'
 items_file = '../dataSets/jester_dataset_2/jester_items.dat'
 
 
@@ -43,7 +43,7 @@ items_file = '../dataSets/jester_dataset_2/jester_items.dat'
 #
 # print(ratings)
 
-df = pd.read_csv(items_file ,delimiter = ':' , names=['item', 'joke'] )
+df = pd.read_csv(items_file ,delimiter = ':' , names=['item', 'joke'])
 
 # df = pd.read_csv(items_file,
 #                  sep="\s+", #separator whitespace

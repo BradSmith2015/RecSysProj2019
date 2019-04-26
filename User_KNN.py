@@ -114,7 +114,6 @@ class User_KNN:
         Computes the item means table `_item_means`
         :return: None
         """
-        # todo i can't seem to test this i hope it works.
         df = pd.DataFrame()
         for x in self.get_users():
             acc = self.get_profile(x).T
@@ -171,29 +170,32 @@ class User_KNN:
 
         overlap = self.get_overlap(u, v)
 
-        accArr =[]
-        aaArr =[]
-        bbArr=[]
+        # overlap.iloc[:, 0]  # first column of data frame (first_name)
+        # overlap.iloc[:, 1]  # second column of data frame (last_name)
 
-        for movieId in range(0, len(overlap)):
-            # This will acess the two values that are bing compared.
-            A = overlap.values[movieId][0:2][0]
-            B = overlap.values[movieId][0:2][1]
+        # just multiply both compared value together
+        overlap['cosine'] = overlap.iloc[:, 0] * overlap.iloc[:, 1]
 
-            accArr.append(A * B )
-            aaArr.append(A **2)
-            bbArr.append(B **2)
-
-        # you do want to use the geometic lenght
+        # accArr =[]
+        # # aaArr = []
+        # # bbArr = []
+        #
+        # for movieId in range(0, len(overlap)):
+        #
+        #     # This will access the two values that are bing compared.
+        #     A = overlap.values[movieId][0:2][0]
+        #     B = overlap.values[movieId][0:2][1]
+        #
+        #     accArr.append(A * B )
+        #     # aaArr.append(A **2)
+        #     # bbArr.append(B **2)
+        #
+        # # you do want to use the geometic length
 
         AA = self.get_profile_length(u)
         BB = self.get_profile_length(v)
 
-        # ans = sum(accArr) /  ((sum(aaArr)**.5)  * ((sum(bbArr)**.5) ))
-        ans = sum(accArr) /  ( AA * BB )
-
-            
-        return ans
+        return overlap.cosine.sum() / ( AA * BB )
 
     def fit(self, ratings):
         """

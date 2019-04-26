@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41f58736-db05-476e-a275-820b4a014de4" name="Default Changelist" comment="I added a few files. the jester_ratings_300 the ratings file with about 300 users. We should use that to test for now, fitting a file with over 40000 users will takes a while. lets use the homework 2.py file as our main file right now we can refactor it latter as needed, im still debuing it but wanted to push so others can mess with it. We can use">
-      <change afterPath="$PROJECT_DIR$/Homework 2.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework 2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_KNN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataSets/jester_dataset_2/jester_ratings_formated.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataSets/jester_dataset_2/jester_ratings_formated_short.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jester_ratings_300.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings_film_3.csv" afterDir="false" />
+    <list default="true" id="41f58736-db05-476e-a275-820b4a014de4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tools.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Item_score_user_rank.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataSets/Item_score_user_rank.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataSets/Output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RecommenderAlgorithm.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/RecommenderAlgorithm.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataSets/jester_dataset_2/jester_items.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dataSets/jester_dataset_2/jester_items.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataSets/jester_dataset_2/jester_ratings.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dataSets/jester_dataset_2/jester_ratings.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User_KNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/User_KNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,9 +16,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/RecSysProj2019$main.coverage" NAME="main Coverage Results" MODIFIED="1556080183471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/RecSysProj2019$pickling.coverage" NAME="pickling Coverage Results" MODIFIED="1556250936241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/RecSysProj2019$main.coverage" NAME="main Coverage Results" MODIFIED="1556243405029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/RecSysProj2019$test_weighted.coverage" NAME="test_weighted Coverage Results" MODIFIED="1555026081730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Dropbox/Info 4871/hw/hw3" />
-    <SUITE FILE_PATH="coverage/RecSysProj2019$Homework_2.coverage" NAME="Homework 2 Coverage Results" MODIFIED="1556080529565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/RecSysProj2019$tools.coverage" NAME="tools Coverage Results" MODIFIED="1556254350417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/RecSysProj2019$Homework_2.coverage" NAME="Homework 2 Coverage Results" MODIFIED="1556247285441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RecSysProj2019$parsing.coverage" NAME="parsing Coverage Results" MODIFIED="1555029148845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
   </component>
   <component name="CoverageViewManager">
@@ -37,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -46,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/User_KNN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3795">
-              <caret line="253" selection-start-line="253" selection-end-line="253" />
+            <state relative-caret-position="367">
+              <caret line="272" selection-start-line="272" selection-end-line="272" />
               <folding>
                 <element signature="e#93#116#0" expanded="true" />
               </folding>
@@ -55,23 +49,86 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Homework 2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="48" />
+            <state relative-caret-position="173">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
-                <element signature="e#25#44#0" expanded="true" />
+                <element signature="e#23#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tools.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataSets/jester_dataset_2/jester_ratings_formated.csv">
+        <entry file="file://$USER_HOME$/.conda/envs/pythonCode/lib/python3.7/site-packages/pandas/core/dtypes/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="105" selection-start-line="105" selection-end-line="105" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/pickling.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="45" selection-start-line="45" selection-end-line="45" selection-end-column="70" />
+              <folding>
+                <element signature="e#523#560#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataSets/Item_score_user_rank.txt">
+          <provider selected="true" editor-type-id="LargeFileEditor">
+            <state relative-caret-position="202050">
+              <caret line="13470" column="18" selection-start-line="13470" selection-start-column="15" selection-end-line="13470" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataSets/Output.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jester_ratings_300.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="-15728158">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            <state relative-caret-position="3825">
+              <caret line="255" column="9" selection-start-line="255" selection-start-column="5" selection-end-line="255" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -104,6 +161,18 @@
       <find>movie</find>
       <find>fit</find>
       <find>nhood_size</find>
+      <find>3.739</find>
+      <find>38.</find>
+      <find>aaArr</find>
+      <find>accArr</find>
+      <find>get_overlap</find>
+      <find>get_profile_length</find>
+      <find>_profile_lengths</find>
+      <find>-0.1</find>
+      <find>User_KNN</find>
+      <find>dict.pickle</find>
+      <find>get_users</find>
+      <find>predict_for_user</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -111,32 +180,39 @@
       <replace>,</replace>
       <replace>:</replace>
       <replace>Q,</replace>
+      <replace>classPickler.pickle</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/scratches/parsing.py" />
         <option value="$PROJECT_DIR$/dataSets/jester_dataset_2/jester_items.dat" />
-        <option value="$PROJECT_DIR$/src/main.py" />
         <option value="$PROJECT_DIR$/Readme.txt" />
         <option value="$PROJECT_DIR$/Homework 2.ipynb" />
         <option value="$PROJECT_DIR$/dataSets/jester_dataset_2/jester_ratings_formated_short.csv" />
         <option value="$PROJECT_DIR$/dataSets/jester_dataset_2/jester_ratings_formated.csv" />
-        <option value="$PROJECT_DIR$/User_KNN.py" />
         <option value="$PROJECT_DIR$/jester_ratings_formated_short.csv" />
+        <option value="$PROJECT_DIR$/User_KNN.py" />
+        <option value="$PROJECT_DIR$/src/main.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/pickling.py" />
         <option value="$PROJECT_DIR$/Homework 2.py" />
+        <option value="$PROJECT_DIR$/tools.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="61" />
-    <option name="y" value="34" />
-    <option name="width" value="1619" />
-    <option name="height" value="933" />
+    <option name="y" value="23" />
+    <option name="width" value="1645" />
+    <option name="height" value="975" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -154,11 +230,6 @@
             <path>
               <item name="RecSysProj2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="RecSysProj2019" type="462c0819:PsiDirectoryNode" />
-              <item name=".ipynb_checkpoints" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RecSysProj2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecSysProj2019" type="462c0819:PsiDirectoryNode" />
               <item name="dataSets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -166,6 +237,11 @@
               <item name="RecSysProj2019" type="462c0819:PsiDirectoryNode" />
               <item name="dataSets" type="462c0819:PsiDirectoryNode" />
               <item name="jester_dataset_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecSysProj2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecSysProj2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -201,7 +277,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Homework 2">
+  <component name="RunManager" selected="Python.tools">
     <configuration name="Homework 2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="RecSysProj2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -268,7 +344,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_weighted" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pickling" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="RecSysProj2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -276,12 +352,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Dropbox/Info 4871/hw/hw3" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Dropbox/Info 4871/hw/hw3/test_weighted.py" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/pickling.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tools" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="RecSysProj2019" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -292,10 +390,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tools" />
+        <item itemvalue="Python.pickling" />
         <item itemvalue="Python.Homework 2" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.parsing" />
-        <item itemvalue="Python.test_weighted" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +410,9 @@
       <updated>1555024115231</updated>
       <workItem from="1555024116767" duration="10878000" />
       <workItem from="1556057018184" duration="428000" />
-      <workItem from="1556073063617" duration="6167000" />
+      <workItem from="1556073063617" duration="11152000" />
+      <workItem from="1556156131563" duration="1025000" />
+      <workItem from="1556230741517" duration="13242000" />
     </task>
     <task id="LOCAL-00001" summary="adding the output">
       <created>1556057906080</created>
@@ -327,11 +428,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556058441710</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="I added a few files. the jester_ratings_300 the ratings file with about 300 users. We should use that to test for now, fitting a file with over 40000 users will takes a while. lets use the homework 2.py file as our main file right now we can refactor it latter as needed, im still debuing it but wanted to push so others can mess with it.">
+      <created>1556081577628</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556081577628</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18879000" />
+    <option name="totallyTimeSpent" value="38131000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -343,42 +451,110 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="34" width="1619" height="933" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1645" height="975" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49822694" visible="true" weight="0.22384274" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49822694" visible="true" weight="0.19900188" />
       <window_info id="Structure" order="1" sideWeight="0.50177306" side_tool="true" weight="0.17882055" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936978" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39952436" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32842582" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.398641" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936978" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3137033" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32936978" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32842582" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32936978" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32936978" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32910588" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.31191516" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32967034" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49822694" visible="true" weight="0.19900188" />
+      <window_info id="Structure" order="1" sideWeight="0.50177306" side_tool="true" weight="0.17882055" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32842582" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.398641" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936978" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3137033" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32936978" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32936978" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32936978" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.31191516" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32967034" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding the output" />
     <MESSAGE value="item socore" />
-    <option name="LAST_COMMIT_MESSAGE" value="item socore" />
+    <MESSAGE value="I added a few files. the jester_ratings_300 the ratings file with about 300 users. We should use that to test for now, fitting a file with over 40000 users will takes a while. lets use the homework 2.py file as our main file right now we can refactor it latter as needed, im still debuing it but wanted to push so others can mess with it." />
+    <option name="LAST_COMMIT_MESSAGE" value="I added a few files. the jester_ratings_300 the ratings file with about 300 users. We should use that to test for now, fitting a file with over 40000 users will takes a while. lets use the homework 2.py file as our main file right now we can refactor it latter as needed, im still debuing it but wanted to push so others can mess with it." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -388,8 +564,121 @@
           <line>40</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Homework 2.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>alg</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>alg.predict_for_user(300, [20,40,9,11])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>alg.predict_for_user(301, [20,40,9,11])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>alg.predict_for_user(10, [20,40,9,11])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>alg.predict_for_user(10, [2,4,9,11])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>aa</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>talg</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>type(alg)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>alg.predict_for_user(1, [1,2,3,4,5,6,7,8,9,10])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>overlap</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>overlap[1:]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>overlap[1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>overlap.values[0:2]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>overlap.values[0:2][1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>overlap.values[0:2][0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>overlap.values[overlap][0:2][0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>overlap.values[overlap][0:2][0] * overlap.values[overlap][0:2][1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>overlap.values</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Dropbox/Info 4871/hw/hw3/test_weighted.py">
@@ -409,13 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.conda/envs/pythonCode/lib/python3.7/site-packages/pandas/core/indexing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="1251" selection-start-line="1251" selection-end-line="1251" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/parsing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -427,13 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1381">
           <caret line="352" column="4" selection-start-line="352" selection-start-column="4" selection-end-line="352" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataSets/jester_dataset_2/jester_items.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -451,40 +726,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataSets/jester_dataset_2/jester_ratings_updated.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="75">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataSets/jester_dataset_2/jester_ratings.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jester_ratings_formated_short.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataSets/jester_ratings_formated_short.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dataSets/jester_dataset_2/jester_ratings_updated.csv" />
+    <entry file="file://$PROJECT_DIR$/dataSets/jester_dataset_2/jester_ratings.csv" />
+    <entry file="file://$PROJECT_DIR$/src/jester_ratings_formated_short.csv" />
+    <entry file="file://$PROJECT_DIR$/dataSets/jester_ratings_formated_short.csv" />
     <entry file="file://$PROJECT_DIR$/dataSets/jester_dataset_2/jester_ratings_formated_short.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="723">
           <caret line="38217" column="14" selection-start-line="38217" selection-start-column="14" selection-end-line="38217" selection-end-column="14" />
         </state>
       </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.csv" />
+    <entry file="file://$PROJECT_DIR$/test_User_KNN.py" />
+    <entry file="file://$USER_HOME$/.conda/envs/pythonCode/lib/python3.7/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1071">
+          <caret line="5250" selection-start-line="5250" selection-end-line="5250" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataSets/jester_dataset_2/jester_ratings_formated.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-15727867">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/pythonCode/lib/python3.7/site-packages/pandas/core/indexing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="1486" selection-start-line="1486" selection-end-line="1486" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataSets/Item_score_user_rank.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="202050">
+          <caret line="13470" column="18" selection-start-line="13470" selection-start-column="15" selection-end-line="13470" selection-end-column="18" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Homework 2.ipynb">
@@ -494,37 +777,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret selection-end-column="21" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RecommenderAlgorithm.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_User_KNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
-          <folding>
-            <element signature="e#523#560#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -535,53 +791,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.txt">
+    <entry file="file://$PROJECT_DIR$/dataSets/jester_dataset_2/jester_items.dat">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataSets/Item_score_user_rank.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="45">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jester_ratings_300.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataSets/jester_dataset_2/jester_ratings_formated.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-15728158">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        <state relative-caret-position="3825">
+          <caret line="255" column="9" selection-start-line="255" selection-start-column="5" selection-end-line="255" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="45" selection-start-line="45" selection-end-line="45" selection-end-column="70" />
+          <folding>
+            <element signature="e#523#560#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/pythonCode/lib/python3.7/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="217" column="15" selection-start-line="217" selection-start-column="8" selection-end-line="217" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/User_KNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3795">
-          <caret line="253" selection-start-line="253" selection-end-line="253" />
+        <state relative-caret-position="367">
+          <caret line="272" selection-start-line="272" selection-end-line="272" />
           <folding>
             <element signature="e#93#116#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/pickling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Homework 2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="48" />
+        <state relative-caret-position="173">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
-            <element signature="e#25#44#0" expanded="true" />
+            <element signature="e#23#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/pythonCode/lib/python3.7/site-packages/pandas/core/dtypes/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
