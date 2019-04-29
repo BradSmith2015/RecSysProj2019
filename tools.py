@@ -1,6 +1,5 @@
 import pandas as pd
 import random
-from User_KNN import User_KNN
 import pickle
 from lenskit import batch, topn, util
 from lenskit import crossfold as xf
