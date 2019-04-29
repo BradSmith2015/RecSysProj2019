@@ -27,38 +27,47 @@ from lenskit import topn
 
 
 import pandas as pd
+import time
+import pickle
 import numpy as np
 import xlrd
 import csv, json
+from tools import *
 
 
-# The header file should have columns added to it.
+# items_file = '../dataSets/jester_dataset_2/jester_items.dat'
+
 # rating_file = '../dataSets/jester_dataset_2/jester_ratings.dat'
-items_file = '../dataSets/jester_dataset_2/jester_items.dat'
+rating_file = '../jester_ratings_100.csv'
+
+ratings = pd.read_csv(rating_file, sep=',', header=0, names=['user', 'Id', 'rating'])
 
 
 # ratings = pd.read_csv(rating_file , sep='\t\t', names=['user', 'joke', 'rating'])
 
-# ratings.rating += 10
-#
-# print(ratings)
 
-df = pd.read_csv(items_file ,delimiter = ':' , names=['item', 'joke'])
+print(ratings)
 
-# df = pd.read_csv(items_file,
-#                  sep="\s+", #separator whitespace
-#                  index_col=0,
-#                  header=None)
+start = time.time()
+print('starting')
 
-# (\d:)| will work for the numbners.
+# alg = User_KNN(20, sim_threshold=0)
+print('before fitting ')
 
-print(df)
+algo_ii = knn.ItemItem(20)
+
+algo_ii.fit(ratings)
+
+# pickle_out = open("testing.pickle", "wb")
+# pickle.dump(algo_ii, pickle_out)
+# pickle_out.close()
 
 
-f = open(items_file)
-print(f)
+done = time.time()
+elapsed = done - start
+print('elapsed time ', elapsed)
 
-# algo_ii = knn.ItemItem(20)
+
 #
 # # als could not be loaded.
 # # algo_als = als.BiasedMF(50)
