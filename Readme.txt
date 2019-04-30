@@ -13,6 +13,9 @@ https://www.pivotaltracker.com/n/projects/2319772
 link to jester data set 
 http://eigentaste.berkeley.edu/dataset/
 
+link to project report
+https://docs.google.com/document/d/1jfcxAIF-1ndKpyHzEdsm3aVqa_ao2d8hK3pbS-GyA4s/edit?usp=sharing
+
 
 so how do we refit our data to our model.
 
