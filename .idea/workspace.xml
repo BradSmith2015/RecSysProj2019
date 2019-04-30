@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41f58736-db05-476e-a275-820b4a014de4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework 2.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework 2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RecommenderAlgorithm.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User_KNN.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataSets/Item_score_user_rank.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataSets/Output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_pickle_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jester_ratings_100.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jester_ratings_300.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratings_film_3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools.py" afterDir="false" />
-    </list>
+    <list default="true" id="41f58736-db05-476e-a275-820b4a014de4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,18 +18,18 @@
     <SUITE FILE_PATH="coverage/RecSysProj2019$get_pickle_test.coverage" NAME="get_pickle_test Coverage Results" MODIFIED="1556467748745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RecSysProj2019$parsing.coverage" NAME="parsing Coverage Results" MODIFIED="1555029148845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/RecSysProj2019$testuserknn.coverage" NAME="testuserknn Coverage Results" MODIFIED="1556466169418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/RecSysProj2019$main_2.coverage" NAME="main_2 Coverage Results" MODIFIED="1556504808502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/RecSysProj2019$main_2.coverage" NAME="main_2 Coverage Results" MODIFIED="1556567001403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="302" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="57" lean-forward="true" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+            <state relative-caret-position="375">
+              <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
               <folding>
                 <element signature="e#22#59#0" expanded="true" />
               </folding>
@@ -54,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tools.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -165,7 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-1854" />
     <option name="y" value="-44" />
     <option name="width" value="1680" />
@@ -183,11 +166,6 @@
             <path>
               <item name="RecSysProj2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="RecSysProj2019" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RecSysProj2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecSysProj2019" type="462c0819:PsiDirectoryNode" />
-              <item name=".ipynb_checkpoints" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RecSysProj2019" type="b2602c69:ProjectViewProjectNode" />
@@ -374,7 +352,7 @@
       <workItem from="1556230741517" duration="13242000" />
       <workItem from="1556465668058" duration="16412000" />
       <workItem from="1556566342578" duration="161000" />
-      <workItem from="1556566525686" duration="154000" />
+      <workItem from="1556566525686" duration="579000" />
     </task>
     <task id="LOCAL-00001" summary="adding the output">
       <created>1556057906080</created>
@@ -404,11 +382,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556512240358</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="cleaned up the repo">
+      <created>1556566728460</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1556566728460</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58958000" />
+    <option name="totallyTimeSpent" value="59383000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -421,20 +406,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1854" y="-44" width="1680" height="1005" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49822694" visible="true" weight="0.20634921" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49822694" visible="true" weight="0.20634921" />
       <window_info id="Structure" order="1" sideWeight="0.50177306" side_tool="true" weight="0.17882055" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32858709" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2366931" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2365827" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37032843" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936978" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4996881" weight="0.3137033" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4996881" weight="0.31325302" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003119" side_tool="true" weight="0.3137033" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32842582" />
@@ -525,7 +509,8 @@
     <MESSAGE value="item socore" />
     <MESSAGE value="I added a few files. the jester_ratings_300 the ratings file with about 300 users. We should use that to test for now, fitting a file with over 40000 users will takes a while. lets use the homework 2.py file as our main file right now we can refactor it latter as needed, im still debuing it but wanted to push so others can mess with it." />
     <MESSAGE value="run main 2, we need the webpage working" />
-    <option name="LAST_COMMIT_MESSAGE" value="run main 2, we need the webpage working" />
+    <MESSAGE value="cleaned up the repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaned up the repo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -842,16 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataSets/jester_dataset_2/user_0.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="509">
-          <caret line="150" column="7" selection-start-line="150" selection-start-column="7" selection-end-line="150" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.3/python_stubs/-1533685224/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -927,13 +902,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="57" lean-forward="true" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
-          <folding>
-            <element signature="e#22#59#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/dataSets/jester_dataset_2/user_0.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="773">
+          <caret line="150" column="7" selection-start-line="150" selection-start-column="7" selection-end-line="150" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -943,6 +918,16 @@
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding>
+            <element signature="e#22#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
