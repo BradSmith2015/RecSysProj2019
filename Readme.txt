@@ -19,6 +19,9 @@ https://docs.google.com/document/d/1jfcxAIF-1ndKpyHzEdsm3aVqa_ao2d8hK3pbS-GyA4s/
 link to poster presentation
 https://docs.google.com/presentation/d/1ZyL3je_EU1RgR9fniktpvASFmI2tMS60Txnw6JUZums/edit?usp=sharing
 
+link to Heroku site where the sebsite is hosted
+recsysproject.herokuapp.com/
+
 
 so how do we refit our data to our model.
 
